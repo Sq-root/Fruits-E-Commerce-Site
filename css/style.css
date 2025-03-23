@@ -175,6 +175,10 @@ section {
     padding: 5rem 0;
 }
 
+.banner-position{
+    margin-top: 15rem;
+}
+
 .section-title {
     font-size: 4rem;
     font-weight: 600;
@@ -205,6 +209,7 @@ section {
     padding-top: 17rem;
     padding-bottom: 10rem;
     min-height: auto;
+    /* margin-top: 12rem; */
 }
 
 
@@ -578,4 +583,20 @@ section {
 .footer_wrapper .copyright-section a {
     color: var(--primary-text);
     font-weight: 600;
+}
+
+/* ===========================
+        About Page CSS
+============================== */
+
+.about .about-details p {
+    color: var(--primary-text);
+}
+
+/* ===========================
+Product Page CSS
+============================== */
+
+.product .product-details p {
+    margin-bottom: 1.5rem;
 }
